@@ -1,3 +1,5 @@
+This is a simple web page I built from scratch to get acquainted with React.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
