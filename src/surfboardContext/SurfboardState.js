@@ -11,7 +11,7 @@ import {
 const SurfboardState = props => {
     const initialState = {
         surfboard: null
-    }
+    };
     
     const [state, dispatch] = useReducer(SurfboardReducer, initialState);
 
@@ -23,9 +23,7 @@ const SurfboardState = props => {
     }
     
     // CLEAR_SURFBOARD
-    const clearSurfboard = () => dispatch({ type: CLEAR_SURFBOARD })
-    
-    
+    const clearSurfboard = () => dispatch({ type: CLEAR_SURFBOARD });
     
     return <SurfboardContext.Provider
         value={{
