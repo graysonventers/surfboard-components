@@ -1,4 +1,7 @@
-This is a simple web page I built from scratch to get acquainted with React.
+Accessible here: 
+https://surfboardcomponents.netlify.app/
+
+This is a web page I built from scratch to get acquainted with React and the ContextAPI.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
