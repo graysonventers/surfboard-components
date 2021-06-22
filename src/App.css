@@ -81,8 +81,9 @@ img {
 .card {
   position: relative;
   padding: 2rem;
-  border: #333 2px solid;
+  border: #333 1px solid;
   line-height: 200%;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .1);
 }
 
 /* List */

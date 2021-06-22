@@ -7,16 +7,16 @@ const SurfboardItem = () => {
     const surfboardContext = useContext(SurfboardContext);
     const { surfboard, clearSurfboard } = surfboardContext;
 
-    const onClickClear = (e) => clearSurfboard();
+    const onClickClear = () => clearSurfboard();
 
     return (
         (surfboard === null || surfboard === undefined || surfboard === 'select')  ? (
             <div className="grid-2" style={{ marginTop: '5%'}}>
                 <div className="p-2 all-center">
-                    <img src={surfboardsHome} alt="surfboards" style={{ width: '100%', border: '#333 2px solid' }} /> 
+                    <img src={surfboardsHome} alt="surfboards" style={{ width: '100%', border: '#333 1px solid' }} /> 
                 </div>
                 <div className="p-2 all-center">
-                    <img src={surfboardsHome2} alt="surfboards" style={{ width: '100%', border: '#333 2px solid' }} /> 
+                    <img src={surfboardsHome2} alt="surfboards" style={{ width: '100%', border: '#333 1px solid' }} /> 
                 </div>
             </div>
         ) : (
